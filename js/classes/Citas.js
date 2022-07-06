@@ -1,4 +1,5 @@
 // Agregar, Editar y Eliminar citas
+// La clase no está en uso, las citas se guardan ahora en IndexDB y no en memoria
 
 class Citas {
 

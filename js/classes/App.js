@@ -1,6 +1,6 @@
 // Event Listeners
 
-import {datosCita, nuevaCita} from "../funciones.js"
+import {datosCita, nuevaCita, crearDB} from "../funciones.js"
 import {
     mascotaInput,
     propietarioInput,
@@ -15,6 +15,7 @@ class App {
 
     constructor() {
         this.initApp();
+        crearDB();
     }
 
     initApp(){
